@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+@font-face{
+	font-family: "asd";
+	src:url('../font/times.ttf') format('opentype');
+}
+
+@font-face{
+	font-family: "aspp";
+	src:local('華康儷中宋'),
+	url('../font/華康儷中宋.TTC # 華康儷中宋') format('opentype');
+}

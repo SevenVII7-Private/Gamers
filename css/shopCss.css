@@ -1,0 +1,1034 @@
+@charset "UTF-8";
+
+* {
+		margin: 0;
+		padding: 0;
+		font-size: 0px;
+		text-decoration: none;
+		list-style: none;
+		/*outline: solid 1px #000;*/
+		font-family: '微軟正黑體', '新細明體';
+		/*font-weight: lighter;*/
+	}
+
+	.banner {
+		width: 100%;
+		position: relative;
+		overflow: hidden;
+		background-color: #aaa;
+		z-index: -1;
+	}
+
+	.banner:before {
+		content: url("../img/aac.svg");
+		display: block;		
+		width: 100%;
+		position: absolute;
+		top: -1px;
+	}
+
+	.banner img {
+		width: 100%;
+	}	
+
+
+
+
+
+
+
+
+/*========================================================*/
+
+
+
+
+
+
+
+
+
+	.outSide {
+		width: 100%;
+		position: relative;
+	}
+
+	.inSide {
+		min-width: 960px;
+		max-width: 1200px;
+		width: 80%;
+		text-align: center;
+		position: relative;
+		margin: auto;
+	}
+
+	.shopTitle {
+		width: 960px;
+		margin: auto;
+	}
+
+
+
+
+
+
+
+
+	.shopNav {
+		width: 240px;
+		margin: 20px 0 30px;
+		text-align: left;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.shopNav h2{
+		padding-top: 20px;
+		padding-bottom: 10px;
+		display: inline-block;
+		text-align: left;
+		font-size: 20px;
+		color: #721c3b;
+	}
+
+	.shopNav ul {
+		border-left: solid 1px #bbb;
+	}
+
+	.shopNav li {
+		font-size: 15px;
+		padding: 10px 10px 10px 30px;
+		border-left: solid 2px rgba(255,255,255,0);
+		color: #555;
+	}
+
+	.shopNav li:hover {
+		border-left: solid 2px #721c3b;
+		color: #721c3b
+	}
+
+
+
+
+
+
+
+
+
+
+
+	.shop {
+			width: 700px;
+			margin: 20px 0 30px;
+			position: relative;
+			display: inline-block;
+	}
+
+	.shopAdBanner {
+		width: 100%-20px;
+		padding: 10px;
+	}
+
+	.shopAdBanner img {
+		width: 100%;
+	}
+
+
+
+
+
+	.inSide .mainShop , 
+	.inSide .mainTra , 
+	.inSide .mainNews ,
+	.inSide .mainAbout {
+		margin:  80px 0 30px 0;
+		padding: 10px 10px 15px 70px;
+		text-align: left;
+		font-family: '華康儷中宋';
+		display: block;
+		position: relative;
+		border-bottom: solid 1px rgba(114,28,59,.5);
+		font-size: 25px;
+		color: #fff;
+		z-index: 2;
+	}
+
+	.inSide .mainShop:before , 
+	.inSide .mainTra:before , 
+	.inSide .mainNews:before ,
+	.inSide .mainAbout:before {
+		content: url(../img/title.svg);
+		position: absolute;
+		width: 100%;
+		bottom: -15px;
+		left: 0px;
+		z-index: -1;
+		bottom: -25px;
+	}
+
+	.inSide .mainShop:after ,
+	.inSide .mainTra:after ,
+	.inSide .newsBox .mainNews:after ,
+	.inSide .mainAbout:after {
+		position: absolute;
+		color: #fff;
+		opacity: .8;
+		font-size: 80px;
+		font-family: times news roman;
+		font-weight: lighter;
+		bottom: -10px;
+		right: 20px;
+		z-index: -1;
+	}	
+
+	.inSide .mainShop:after {
+		content: 'ShopTop';
+		right: 40px;
+	}
+
+	.inSide .mainTra:after {
+		content: 'Transaction';
+		right: 40px;
+	}	
+
+	.inSide .newsBox .mainNews:after {
+		content: 'NewsTop';
+		right: 40px;
+	}	
+
+	.inSide .mainAbout:after {
+		content: 'About us';
+		right: 40px;
+	}	
+
+
+
+
+
+
+	.titlePic {
+		width: 100%;
+		position: absolute;
+		top: -1%;
+		left: 0;
+	}
+
+
+
+
+
+
+
+
+
+	
+	.searchBox {
+		width: 100%-10px;
+		margin: 10px;
+		text-align: right;
+	}
+	.search {
+		width: 250px;
+		height: 20px;
+		vertical-align: middle;
+	}
+
+	.searchBox label {
+		font-size: 20px;
+		vertical-align: middle;
+		color: #721c3b;
+	}
+
+	.searchBox .searchPic {
+		margin-left: 10px;
+		height: 20px;
+		vertical-align: middle;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.shopBox {
+		width: 600px;
+		margin: 10px;
+		padding-bottom: 20px;
+		display: inline-block;
+		/*border: solid 1px rgba(114,28,59,.5);*/
+	}
+
+	/*.shopBox h3 {
+		padding: 10px;
+		margin-bottom: 20px;
+		text-align: left;
+		display: block;
+		position: relative;
+		background-color: rgba(114,28,59,.8);
+		border-bottom: solid 1px rgba(114,28,59,.5);
+		font-size: 20px;
+		color: #fff;
+	}*/
+
+	.shopBox h3 {
+		margin: 10px 20px 20px;
+		font-size: 40px;
+		font-family: '華康儷中宋';
+		text-align: left;
+		position: relative;
+		border-bottom: solid 1px #721c3b;
+	}
+
+	.shopBox h3 span {
+		display: block;
+		margin: 10px 0;
+		font-size: 20px;
+		font-family: time news roman;
+	}
+
+	.shopBox h3 .twoLine {
+		display: inline-block;
+		position: absolute;
+		margin: 10px;
+		font-size: 80px;
+		color: #e1a32b;
+		bottom: 10px;
+	}
+
+
+
+
+
+
+
+	.btnGo {
+		margin: 10px 10px 35px;
+		padding: 10px;
+		writing-mode: vertical-lr;
+		font-size: 20px;
+		font-weight: bold;
+		color: #e1a32b;
+		border: solid 2px #e1a32b;
+		display: inline-block;
+		overflow: hidden;
+		position: relative;
+		vertical-align: bottom;
+		z-index: 2;
+	}
+
+	.btnGo:hover {
+		color: #900;
+		border: solid 2px #900;
+	}
+
+	.btnGo:after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		position: absolute;
+		top: -100%;
+		left: 0;
+		opacity: 0;
+		background-color:#e1a32b; 
+		transition: .5s;
+		z-index: -1;
+	}
+
+	.btnGo:hover:after {
+		top: 0;
+		opacity: .5;
+	}
+
+
+
+
+
+
+
+
+	.shopItem {
+		width: 166px;
+		height: 332px;
+		margin: 8px;
+		background-color: #fff;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		text-align: center;
+		border: solid 1px #ddd;
+		box-shadow:  3px 3px 3px 1px rgba(0,0,0,.2);
+	}
+
+	.shopItemPic {
+		width: 166px;
+		height: 166px;
+		overflow: hidden;
+	}
+
+	.shopItemPic img {
+		width: 100%;
+	}
+
+	.shopItem h4 , .shopItem h4 span {
+		font-size: 15px;
+		color: #721c3b;
+	}
+
+	.shopItem p , .shopItem p span {
+		font-size: 10px;
+		color: #777;
+		font-weight: lighter;
+	}
+
+	.shopItem p , .shopItem h4 {
+		margin: 8px;
+	}
+
+	.shopItem span {
+		display: block;
+	}
+
+	.shopItemData {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.shopItemData hr {
+		 width: 50px;
+		 height: 3px;
+		 background-color: #721c3b;
+		 margin: auto;
+		 border: none;
+	}
+
+	.shopItemData .money {
+		font-size: 15px;
+		color: #721c3b;
+		font-weight: bold;
+	}
+
+
+
+
+
+
+
+
+/*==========================================================*/
+
+
+
+
+
+
+
+
+
+	.logoBack {
+		width: 40%;
+		opacity: .2;
+		position: absolute;
+		bottom: 5%;
+		right: 0;
+	}
+
+
+
+
+
+
+
+
+	.stBanner {
+		width: 15%;
+		display: inline-block;
+		vertical-align: top;
+		margin: 140px 20px 0; 
+	}
+
+	.newsStBanner {
+		width: 18%;
+		display: inline-block;
+		vertical-align: top;
+		margin:  20px; 
+	}
+
+	.stBanner img , .newsStBanner img {
+		width: 100%;
+	}
+
+
+
+
+/*========================================================*/
+
+
+
+
+	.transactionItem {
+		width: 170px;
+		height: 350px;
+		margin: 10px;
+		background-color: #fff;
+		display: inline-block;
+		position: relative;
+		border: solid 1px #ddd;
+		box-shadow:  3px 3px 3px 1px rgba(0,0,0,.2);
+		vertical-align: top;
+	}
+
+	.transactionItemPic {
+		width: 100%;
+		height: 170px;
+	}
+	
+	.transactionItemPic img {
+		width: 100%;
+	}
+
+	.transactionItem h4 , .transactionItem h4 span {
+		font-size: 15px;
+		color: #721c3b;
+	}
+
+	.transactionItem p , .transactionItem p span {
+		font-size: 10px;
+		color: #777;
+		font-weight: lighter;
+	}
+
+	.transactionItem p , .transactionItem h4 {
+		margin: 8px;
+	}
+
+	.transactionItem span {
+		display: block;
+	}
+
+	.transactionItemData {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+
+	.transactionItemData p span {
+		display: inline-block;
+		margin: 0 5px;
+	}
+
+	.transactionItemData p .money {
+		font-size: 17px;
+		color: #721c3b;
+		font-weight: bold;
+	}
+
+	.transactionItemData hr {
+		 width: 50px;
+		 height: 3px;
+		 background-color: #721c3b;
+		 margin: auto;
+		 border: none;
+	}
+
+
+
+
+
+/*=======================================================*/
+
+
+
+
+	
+	.newsBox {
+		width: 960px;
+		display: inline-block;
+	}
+
+	.newsNav {
+		width: 100%;
+		margin-top: 0px;
+		text-align: center;
+		border-bottom: solid 3px #e1a32b;
+		border-top: solid 3px #e1a32b;
+		background-color:  #721c3b;
+	}
+
+	.newsNav li {
+		padding: 15px 40px;
+		display: inline-block;
+		font-size: 18px;
+		color: #fff;
+	}
+
+	.newsNav li:hover {
+		background-color: rgba(255,255,255,.4);
+	}
+
+
+
+
+
+
+
+
+	.newsHead {
+		width: 100%;
+		margin: 20px 0;
+		display: block;
+		position: relative;
+		background-color: #fff;
+		overflow: hidden;
+	}
+
+	.newsHead img {
+		width: 100%;
+		transition: .5s;
+	}
+
+	.newsHead:hover img {
+		opacity: .8;
+	}
+
+	.newsHead .newsHeadTag {
+		width: 100%;
+		padding: 20px 0;
+		position: absolute;
+		bottom: -130px;
+		background-color: rgba(0,0,0,.4);
+		transition: .5s;
+	}
+
+	.newsHead .newsHeadTag:hover {
+		bottom: 0px;
+		background-color: rgba(0,0,0,.7);
+	}
+
+	.newsHeadTag .newsHeadTagTitle {
+		font-size: 20px;
+		padding: 20px;
+		color: #fff;
+	}
+
+	.newsHeadTag .newsHeadTagText {
+		font-size: 15px;
+		padding: 20px 100px;
+		color: rgba(255,255,255,.8);
+	}
+
+
+
+
+
+
+
+
+	.newsSec {
+		width: 100%;
+		margin: 10px 0 ;
+		border: solid 1px #ddd; 
+		background-color: #fff;
+	}
+
+	.newsItemSec {
+		border-bottom: dashed 2px #e1a32b;
+		padding: 20px;
+		text-align: left;
+	}
+
+	.newsItemSec:nth-child(5) {
+		border-bottom: none;
+	}
+
+	.newsItemSec h2 {
+		font-size: 18px;
+		display: inline-block;
+		color: #721c3b;
+		padding: 10px 35px;
+		vertical-align: top;
+	}
+
+	.newsItemSec p {
+		font-size: 15px;
+		padding: 10px 35px;
+		color: #555;
+		display: inline-block;
+		position: relative;
+	}
+
+	.newsIcon {
+		width: 25px;
+		height: 25px;
+		vertical-align: bottom;
+	}
+
+	.newsInReadBar {
+		width: 100%;
+		text-align: right;
+	}
+
+	.newsIn .read {
+		font-size: 15px;
+		padding: 0 35px;
+		display: inline-block;
+		text-align: right;
+		color: #721c3b;
+	}
+
+	.newsPic {
+		width: 17%;
+		height: 17%;
+		margin: 1%;
+		display: inline-block;
+	}
+
+	.newsPic img {
+		width: 100%;
+	}
+
+	.newsIn {
+		width: 80%;
+		display: inline-block;
+		vertical-align: top;
+	}
+
+
+
+
+
+
+
+
+
+	.pageBtn {
+		color: #721c3b;
+		margin: 20px 30px 50px;
+		padding: 10px 20px;
+		font-size: 15px;
+		border: solid 2px #721c3b;
+		background-color: #fff;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		z-index: 2;
+	}
+
+	.pageBtn:after {
+		content: '';
+		width: 100%;
+		height: 100%;
+		display: inline-block;
+		position: absolute;
+		top: -100%;
+		left: 0;
+		opacity: 0;
+		background-color:#721c3b; 
+		transition: .5s;
+		z-index: -1;
+
+	}
+
+	.pageBtn:hover {
+		color: #fff;
+	}
+
+	.pageBtn:hover:after {
+		top: 0;
+		opacity: .8;
+	}
+
+
+
+
+
+
+
+
+
+
+	.about {
+		width: 960px;
+		display: inline-block;
+	}
+
+	.aboutUsText {
+		margin: 20px 0;
+		position: relative;
+		text-align: left;
+	}
+
+	.aboutUsTextLeft {
+		width: 50%;
+		margin: 20px 0;
+		display: inline-block;
+	}
+
+	.aboutUsTextLeft h2 {
+		font-size: 40px;
+		font-family: '華康儷中宋';
+		text-align: left;
+		position: relative;
+	}
+
+	.aboutUsTextLeft h2 span {
+		display: block;
+		margin: 10px 0;
+		font-size: 20px;
+		font-family: time news roman;
+	}
+
+	.aboutUsTextLeft h2 .twoLine {
+		display: inline-block;
+		position: absolute;
+		margin: 10px;
+		font-size: 80px;
+		color: #e1a32b;
+		bottom: 0;
+	}
+
+	.aboutUsTextRight {
+		width: 50%;
+		margin: 20px 0;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.aboutUsTextRight.aboutAAA {
+		width: 46%;
+		background-color: rgba(255,255,255,.8);
+		position: absolute;
+		padding: 2%;
+		top: 0;
+		right: 0;
+		z-index: 2;
+		box-shadow:  3px 3px 3px 1px rgba(0,0,0,.2);
+	}
+
+	.aboutUsTextRight.aboutAAA p {
+		color: rgba(0,0,0,1);
+	}
+
+	.aboutUsTextRight h3 {
+		font-size: 20px;
+		font-weight: bold;
+		font-family: '華康儷中宋';
+		color: #721c3b;
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	.aboutUsTextRight h4 {
+		font-size: 15px;
+		font-weight: bold;
+		font-family: '華康儷中宋';
+		padding-left: 10px;
+		color: #555;
+		display: inline-block;
+		border-left: solid 3px #e1a32b;
+	}
+
+	.aboutUsTextRight p {
+		font-size: 15px;
+		text-align: left;
+		color: #555;
+	}
+
+	.about .aboutPic {
+		width: 90%;
+		height: 300px;
+		position: relative;
+		overflow: hidden;
+	}
+
+	.aboutPic img {
+		width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: -30%;
+	}
+
+	.shoushi {
+		font-weight: bold;
+		margin: 10px 0;
+	}
+
+	.shoushi:nth-child(1) {
+		margin-top: 0;
+	}
+
+	.aboutGoTo {
+		display: inline-block;
+		width: 50%;
+		vertical-align: top;
+		padding: 10px 0;
+	}
+
+	.aboutGoTo .shoushi02 {
+		font-size: 15px;
+		margin:  10px 20px;
+	}
+
+	.googleMap {
+		margin: 0  0 20px;
+	}
+
+	.mapLittle {
+		width: 90%;
+	}
+
+
+
+
+
+
+
+
+
+	footer {
+		width: 100%;
+		background-color: #721c3b;
+	}
+
+	@media screen and (max-width:767px) {
+		.footerIn {
+			min-width: 340px;
+			max-width: 95%;
+			margin: auto;
+		}
+	}
+
+	@media screen and (min-width:768px) {
+		.footerIn {
+			max-width: 760px;
+			margin: auto;
+		}
+	}
+
+	@media screen and (min-width:992px) {
+		.footerIn {
+			max-width: 960px;
+			margin: auto;
+		}
+	}
+
+	@media screen and (min-width:1200px) {
+		.footerIn {
+			max-width: 1100px;
+			margin: auto;
+		}
+	}
+	
+	
+	@media screen and (max-width:767px) {
+		.footRight {
+			text-align: center;
+		}
+
+		.footRight , .footLeft {
+			width: calc(100% - 20px);
+			padding: 10px;
+			display: block;
+			vertical-align: middle;
+		}
+	}
+
+
+	@media screen and (min-width:768px) {
+		.footRight {
+			text-align: center;
+		}
+
+		.footRight , .footLeft {
+			width: calc(100% - 20px);
+			padding: 10px;
+			display: block;
+			vertical-align: middle;
+		}
+	}
+	
+
+	@media screen and (min-width:992px) {
+		.footRight {
+			text-align: left;
+		}
+
+		.footRight , .footLeft {
+			width: calc(25% - 60px);
+			padding: 30px;
+			display: inline-block;
+			vertical-align: middle;
+		}
+	}
+
+	.footRight h4 {
+		font-family: 'aspp';
+		font-weight: bold;
+		font-size: 20px;
+		margin-bottom: 10px;
+		color: #fff;
+	}
+
+	.footRight p {
+		font-size: 15px;
+		color: #fff;
+	}
+
+
+	@media screen and (max-width:767px){
+		.footNav {
+			width: calc(100% - 20px);
+			padding: 10px;
+			display: block;
+			background-color: rgba(255,255,255,0);
+			vertical-align: middle;
+		}
+	}
+
+	@media screen and (min-width:768px){
+		.footNav {
+			width: calc(100% - 20px);
+			padding: 10px;
+			display: block;
+			background-color: rgba(255,255,255,0);
+			vertical-align: middle;
+		}
+	}
+
+	@media screen and (min-width:992px){
+		.footNav {
+			width: calc(50% - 60px);
+			padding: 30px;
+			display: inline-block;
+			background-color: rgba(255,255,255,0);
+			vertical-align: middle;
+		}
+	}
+
+	.footNav ul li {
+		font-size: 15px;
+		width: 20%;
+		color: #fff;
+		display: inline-block;
+	}
+
+	.footLeft {
+		text-align: center;
+	}
+
+	.footLeft img {
+		width: 40px;
+		margin: 10px;
+	} 
