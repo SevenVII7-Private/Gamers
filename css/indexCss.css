@@ -97,7 +97,7 @@
 	.banner h1 {
 		width: 100%;
 		color: #fff;
-		font-family: "aspp";
+		font-family: "aspp", '微軟正黑體';
 	}
 
 	@media screen and (max-width:767px){
@@ -135,7 +135,7 @@
 	h1 span {
 		display: inline-block;
 		position: absolute;
-		font-family: "asd";
+		font-family: "asd", '微軟正黑體';
 	}
 
 
@@ -177,7 +177,7 @@
 			font-size: 25px;
 			right: 10%;
 			top: -30%;
-			font-family: "asd" , "aspp";
+			font-family: "asd" , "aspp", '微軟正黑體';
 			-webkit-writing-mode: vertical-lr;
 			writing-mode: vertical-lr;
 		}
@@ -206,7 +206,7 @@
 			margin-top: 20px;
 			font-size: 30px;
 			right: 10%;
-			font-family: "asd" , "aspp";
+			font-family: "asd" , "aspp", '微軟正黑體';
 			-webkit-writing-mode: vertical-lr;
 			writing-mode: vertical-lr;
 		}
@@ -251,7 +251,7 @@
 			right: 0;
 			margin-top: 20px;
 			font-size: 30px;
-			font-family: "asd" , "aspp";
+			font-family: "asd" , "aspp", '微軟正黑體';
 			line-height: 0;
 			vertical-align: bottom;
 			opacity: 1;
@@ -262,7 +262,7 @@
 			margin-top: 25px;
 			font-size: 15px;
 			line-height:25px;
-			font-family: "asd" , "aspp";
+			font-family: "asd" , "aspp", '微軟正黑體';
 			opacity: 1;
 			display: block;
 		}
@@ -285,7 +285,7 @@
 			color: #000;
 			margin-top: 30px;
 			font-size: 40px;
-			font-family: "asd" , "aspp";
+			font-family: "asd" , "aspp", '微軟正黑體';
 			line-height: 0;
 			vertical-align: bottom;
 			opacity: 1;
@@ -296,7 +296,7 @@
 			margin-top: 40px;
 			font-size: 15px;
 			line-height:25px;
-			font-family: "asd" , "aspp";
+			font-family: "asd" , "aspp", '微軟正黑體';
 			opacity: 1;
 		}
 	}
@@ -579,7 +579,7 @@
 	.titleWord01 h4 , .titleWord03 h4 {
 		color: #fff;
 		text-align: center;
-		font-family: "asd";
+		font-family: "asd", '微軟正黑體';
 		font-size: 25px;
 		margin-bottom: 15px;
 	}
@@ -607,7 +607,7 @@
 
 	.titleWord01 h1 , .titleWord03 h1 {
 		color: #fff;
-		font-family: "aspp";
+		font-family: "aspp", '微軟正黑體';
 		font-size: 60px;
 	}
 
@@ -957,7 +957,7 @@
 		color: #fff;
 		text-align: center;
 		margin-bottom: 15px;
-		font-family: "asd";
+		font-family: "asd", '微軟正黑體';
 		font-size: 25px;
 	}
 
@@ -982,7 +982,7 @@
 
 	.titleWord02 h1 {
 		color: #fff;
-		font-family: "aspp";
+		font-family: "aspp", '微軟正黑體';
 		font-size: 60px;
 	}
 
@@ -1541,7 +1541,7 @@
 		color: #fff;
 		text-align: center;
 		margin-bottom: 15px;
-		font-family: "asd";
+		font-family: "asd", '微軟正黑體';
 		font-size: 25px;
 	}
 
@@ -1560,7 +1560,7 @@
 
 	.titleWord04 h1 {
 		color: #fff;
-		font-family: "aspp";
+		font-family: "aspp", '微軟正黑體';
 		font-size: 60px;
 	}
 
